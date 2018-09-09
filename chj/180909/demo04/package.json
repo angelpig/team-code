@@ -1,0 +1,13 @@
+{
+  "name": "webpack-demo3",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode development"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "file-loader": "^2.0.0",
+    "mini-css-extract-plugin": "^0.4.2"
+  }
+}
